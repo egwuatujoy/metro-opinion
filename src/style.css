@@ -11,10 +11,13 @@
 }
 
 .card-img {
-  @apply w-24  ml-36  ;
+  @apply w-24  ml-36;
 }
 
 .line {
   @apply bg-light-green h-1 w-8;
 }
 
+.about-section {
+  @apply mt-20 px-20 max-md:flex-col flex justify-center items-center gap-16 w-full mb-20;
+}
