@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-topic {
+  @apply text-2xl font-bold mt-6 mb-2;
+}
+
+.card-para {
+  @apply text-dark-gray font-normal text-base;
+}
+
+.card-img {
+  @apply w-24  ml-36  ;
+}
+
+.line {
+  @apply bg-light-green h-1 w-8;
+}
+
